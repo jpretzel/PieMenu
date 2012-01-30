@@ -1,0 +1,32 @@
+/* 
+    Document   : style
+    Created on : 30.01.2012, 12:30:40
+    Author     : jan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+ul.pie-menu {
+    list-style: none;
+    border: 15px solid red;
+    position: relative;
+    width: 170px;
+    height: 170px;
+    margin: 0px;
+    padding: 0px;
+    
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    
+    left: 100px;
+}
+
+ul.pie-menu li {
+    position: absolute;
+}
+
